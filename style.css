@@ -1,0 +1,2060 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  font-family: 'Nabla', cursive;
+}
+
+body {
+  margin: 0;
+  opacity: 1;
+  z-index: 1;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+
+  background: linear-gradient(to right, #485563, #29323c);
+}
+
+
+.coding1::after {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 25%;
+  content: "V";
+
+  font-size: 100px;
+  font-family: 'Nabla', cursive;
+  color: #fff;
+  animation: mymove 3s linear;
+  filter: drop-shadow(0 0 5px #B1BB28) drop-shadow(0 0 15px #B1BB28)
+  drop-shadow(0 0 35px #B1BB28) hue-rotate(60deg);
+}
+
+/*coding1{section}*/
+@keyframes mymove {
+  0% {
+    content: "ᚕ";
+  }
+
+  1% {
+    content: "ᚖ"
+  }
+
+  2% {
+    content: "ᚠ";
+  }
+
+  3% {
+    content: "ᚡ";
+  }
+
+  4% {
+    content: "ᚢ";
+  }
+
+  5% {
+    content: "ᚣ";
+  }
+
+  6% {
+    content: "ᚤ";
+  }
+
+  7% {
+    content: "ᚥ";
+  }
+
+  8% {
+    content: "ᚦ";
+  }
+
+  9% {
+    content: "ᚨ";
+  }
+
+  10% {
+    content: "ᚩ";
+  }
+
+  11% {
+    content: "ᚪ";
+  }
+
+  12% {
+    content: "ᚫ";
+  }
+
+  13% {
+    content: "ᚬ";
+  }
+
+  14% {
+    content: "ᚭ";
+  }
+
+  15% {
+    content: "ᚮ";
+  }
+
+  16% {
+    content: "ᚯ";
+  }
+
+  17% {
+    content: "ᚰ";
+  }
+
+  18% {
+    content: "ᚱ";
+  }
+
+  19% {
+    content:"ᚲ";
+  }
+
+  20% {
+    content: "ᚳ";
+  }
+
+  21% {
+    content: "ᚴ";
+  }
+
+  22% {
+    content: "ᚵ";
+  }
+
+  23% {
+    content: "ᚶ";
+  }
+
+  24% {
+    content: "ᚷ";
+  }
+
+  25% {
+    content: "ᚸ";
+  }
+
+  26% {
+    content: "ᚹ";
+  }
+
+  27% {
+    content: "ᚺ";
+  }
+
+  28% {
+    content: "ᚻ";
+  }
+
+  29% {
+    content: "ᚼ";
+  }
+
+ 30% {
+    content: "ᚽ";
+  }
+
+  31% {
+    content: "ᚾ";
+  }
+
+  32% {
+    content: "ᚿ";
+  }
+
+  33% {
+    content: "ᛃ";
+  }
+
+  34% {
+    content: "ᛄ";
+  }
+
+ 35% {
+    content: "ᛅ";
+  }
+
+  36% {
+    content: "ᛆ";
+  }
+
+  37% {
+    content: "ᛇ";
+  }
+
+  38% {
+    content: "ᛈ";
+  }
+
+  39% {
+    content: "ᛉ";
+  }
+
+  40% {
+    content: "ᛊ";
+  }
+
+  41% {
+    content: "ᛋ";
+  }
+
+  42% {
+    content: "ᛏ";
+  }
+
+  44% {
+    content: "ᛑ";
+  }
+
+ 45% {
+    content: "ᛒ";
+  }
+
+  47% {
+    content: "ᛓ";
+  }
+
+  49% {
+    content: "ᛔ";
+  }
+
+  50% {
+    content: "ᛕ";
+  }
+
+  51% {
+    content: "ᛖ";
+  }
+
+  52% {
+    content: "ᛗ";
+  }
+
+  53% {
+    content: "ᛘ";
+  }
+
+  55% {
+    content: "ᛚ";
+  }
+
+ 57% {
+    content: "ᛛ";
+  }
+
+  58% {
+    content: "ᛜ";
+  }
+
+  59% {
+    content: "ᛝ";
+  }
+
+ 61% {
+    content: "ᛞ";
+  }
+
+  63% {
+    content: "ᛟ";
+  }
+
+  65% {
+    content: "ᛠ";
+  }
+
+  67% {
+    content: "ᛡ";
+  }
+
+ 69% {
+    content: "ᛢ";
+  }
+
+  71% {
+    content: "ᛣ";
+  }
+
+  72% {
+    content: "ᛤ";
+  }
+
+  75% {
+    content: "ᛥ";
+  }
+
+ 77% {
+    content: "ᛦ";
+  }
+
+ 79% {
+    content: "ᛩ";
+  }
+
+  81% {
+    content: "ᛪ";
+  }
+
+  83% {
+    content: "ᛮ";
+  }
+
+ 83% {
+    content: "ᛯ";
+  }
+
+  85% {
+    content: "ᛰ";
+  }
+
+  87% {
+    content: "1";
+  }
+
+  89% {
+    content: "8";
+  }
+
+  90% {
+    content: "2";
+  }
+
+  92% {
+    content: "3";
+  }
+
+  95% {
+    content: "4";
+  }
+
+ 97% {
+    content: "ß";
+  }
+
+  98% {
+    content: "5";
+  }
+
+ 99% {
+    content: "6";
+  }
+
+  100% {
+    content: "7";
+  }
+}
+
+/*section#1[end]*/
+
+.coding2::after {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 35%;
+  content: "I";
+  color: #fff;
+  font-family: 'Nabla', cursive;
+  font-size: 100px;
+  animation: myMove 3.7s linear;
+  filter: drop-shadow(0 0 5px #B1BB28) drop-shadow(0 0 15px #B1BB28)
+  drop-shadow(0 0 35px #B1BB28) hue-rotate(60deg);
+}
+
+/*coding2 {section}*/
+
+@keyframes myMove {
+  0% {
+    content: "ᚕ";
+  }
+
+  1% {
+    content: "ᚖ"
+  }
+
+  2% {
+    content: "ᚠ";
+  }
+
+  3% {
+    content: "ᚡ";
+  }
+
+  4% {
+    content: "ᚢ";
+  }
+
+  5% {
+    content: "ᚣ";
+  }
+
+  6% {
+    content: "ᚤ";
+  }
+
+  7% {
+    content: "ᚥ";
+  }
+
+  8% {
+    content: "ᚦ";
+  }
+
+  9% {
+    content: "ᚨ";
+  }
+
+  10% {
+    content: "ᚩ";
+  }
+
+  11% {
+    content: "ᚪ";
+  }
+
+  12% {
+    content: "ᚫ";
+  }
+
+  13% {
+    content: "ᚬ";
+  }
+
+  14% {
+    content: "ᚭ";
+  }
+
+  15% {
+    content: "ᚮ";
+  }
+
+  16% {
+    content: "ᚯ";
+  }
+
+  17% {
+    content: "ᚰ";
+  }
+
+  18% {
+    content: "ᚱ";
+  }
+
+  19% {
+    content:"ᚲ";
+  }
+
+  20% {
+    content: "ᚳ";
+  }
+
+  21% {
+    content: "ᚴ";
+  }
+
+  22% {
+    content: "ᚵ";
+  }
+
+  23% {
+    content: "ᚶ";
+  }
+
+  24% {
+    content: "ᚷ";
+  }
+
+  25% {
+    content: "ᚸ";
+  }
+
+  26% {
+    content: "ᚹ";
+  }
+
+  27% {
+    content: "ᚺ";
+  }
+
+  28% {
+    content: "ᚻ";
+  }
+
+  29% {
+    content: "ᚼ";
+  }
+
+ 30% {
+    content: "ᚽ";
+  }
+
+  31% {
+    content: "ᚾ";
+  }
+
+  32% {
+    content: "ᚿ";
+  }
+
+  33% {
+    content: "ᛃ";
+  }
+
+  34% {
+    content: "ᛄ";
+  }
+
+ 35% {
+    content: "ᛅ";
+  }
+
+  36% {
+    content: "ᛆ";
+  }
+
+  37% {
+    content: "ᛇ";
+  }
+
+  38% {
+    content: "ᛈ";
+  }
+
+  39% {
+    content: "ᛉ";
+  }
+
+  40% {
+    content: "ᛊ";
+  }
+
+  41% {
+    content: "ᛋ";
+  }
+
+  42% {
+    content: "ᛏ";
+  }
+
+  44% {
+    content: "ᛑ";
+  }
+
+ 45% {
+    content: "ᛒ";
+  }
+
+  47% {
+    content: "ᛓ";
+  }
+
+  49% {
+    content: "ᛔ";
+  }
+
+  50% {
+    content: "ᛕ";
+  }
+
+  51% {
+    content: "ᛖ";
+  }
+
+  52% {
+    content: "ᛗ";
+  }
+
+  53% {
+    content: "ᛘ";
+  }
+
+  55% {
+    content: "ᛚ";
+  }
+
+ 57% {
+    content: "ᛛ";
+  }
+
+  58% {
+    content: "ᛜ";
+  }
+
+  59% {
+    content: "ᛝ";
+  }
+
+ 61% {
+    content: "ᛞ";
+  }
+
+  63% {
+    content: "ᛟ";
+  }
+
+  65% {
+    content: "ᛠ";
+  }
+
+  67% {
+    content: "ᛡ";
+  }
+
+ 69% {
+    content: "ᛢ";
+  }
+
+  71% {
+    content: "ᛣ";
+  }
+
+  72% {
+    content: "ᛤ";
+  }
+
+  75% {
+    content: "ᛥ";
+  }
+
+ 77% {
+    content: "ᛦ";
+  }
+
+ 79% {
+    content: "ᛩ";
+  }
+
+  81% {
+    content: "ᛪ";
+  }
+
+  83% {
+    content: "ᛮ";
+  }
+
+ 83% {
+    content: "ᛯ";
+  }
+
+  85% {
+    content: "ᛰ";
+  }
+
+  87% {
+    content: "1";
+  }
+
+  89% {
+    content: "8";
+  }
+
+  90% {
+    content: "2";
+  }
+
+  92% {
+    content: "3";
+  }
+
+  95% {
+    content: "4";
+  }
+
+ 97% {
+    content: "ß";
+  }
+
+  98% {
+    content: "5";
+  }
+
+ 99% {
+    content: "6";
+  }
+
+  100% {
+    content: "7";
+  }
+}
+
+/*section#2[end]*/
+
+.coding3::after {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 45%;
+  content: "R";
+  color: #fff;
+  font-family: 'Nabla', cursive;
+  font-size: 100px;
+  animation: mymOve 2.2s linear;
+  filter: drop-shadow(0 0 5px #B1BB28) drop-shadow(0 0 15px #B1BB28)
+  drop-shadow(0 0 35px #B1BB28) hue-rotate(60deg);
+}
+
+/*coding3 {section}*/
+
+@keyframes mymOve {
+  0% {
+    content: "ᚕ";
+  }
+
+  1% {
+    content: "ᚖ"
+  }
+
+  2% {
+    content: "ᚠ";
+  }
+
+  3% {
+    content: "ᚡ";
+  }
+
+  4% {
+    content: "ᚢ";
+  }
+
+  5% {
+    content: "ᚣ";
+  }
+
+  6% {
+    content: "ᚤ";
+  }
+
+  7% {
+    content: "ᚥ";
+  }
+
+  8% {
+    content: "ᚦ";
+  }
+
+  9% {
+    content: "ᚨ";
+  }
+
+  10% {
+    content: "ᚩ";
+  }
+
+  11% {
+    content: "ᚪ";
+  }
+
+  12% {
+    content: "ᚫ";
+  }
+
+  13% {
+    content: "ᚬ";
+  }
+
+  14% {
+    content: "ᚭ";
+  }
+
+  15% {
+    content: "ᚮ";
+  }
+
+  16% {
+    content: "ᚯ";
+  }
+
+  17% {
+    content: "ᚰ";
+  }
+
+  18% {
+    content: "ᚱ";
+  }
+
+  19% {
+    content:"ᚲ";
+  }
+
+  20% {
+    content: "ᚳ";
+  }
+
+  21% {
+    content: "ᚴ";
+  }
+
+  22% {
+    content: "ᚵ";
+  }
+
+  23% {
+    content: "ᚶ";
+  }
+
+  24% {
+    content: "ᚷ";
+  }
+
+  25% {
+    content: "ᚸ";
+  }
+
+  26% {
+    content: "ᚹ";
+  }
+
+  27% {
+    content: "ᚺ";
+  }
+
+  28% {
+    content: "ᚻ";
+  }
+
+  29% {
+    content: "ᚼ";
+  }
+
+ 30% {
+    content: "ᚽ";
+  }
+
+  31% {
+    content: "ᚾ";
+  }
+
+  32% {
+    content: "ᚿ";
+  }
+
+  33% {
+    content: "ᛃ";
+  }
+
+  34% {
+    content: "ᛄ";
+  }
+
+ 35% {
+    content: "ᛅ";
+  }
+
+  36% {
+    content: "ᛆ";
+  }
+
+  37% {
+    content: "ᛇ";
+  }
+
+  38% {
+    content: "ᛈ";
+  }
+
+  39% {
+    content: "ᛉ";
+  }
+
+  40% {
+    content: "ᛊ";
+  }
+
+  41% {
+    content: "ᛋ";
+  }
+
+  42% {
+    content: "ᛏ";
+  }
+
+  44% {
+    content: "ᛑ";
+  }
+
+ 45% {
+    content: "ᛒ";
+  }
+
+  47% {
+    content: "ᛓ";
+  }
+
+  49% {
+    content: "ᛔ";
+  }
+
+  50% {
+    content: "ᛕ";
+  }
+
+  51% {
+    content: "ᛖ";
+  }
+
+  52% {
+    content: "ᛗ";
+  }
+
+  53% {
+    content: "ᛘ";
+  }
+
+  55% {
+    content: "ᛚ";
+  }
+
+ 57% {
+    content: "ᛛ";
+  }
+
+  58% {
+    content: "ᛜ";
+  }
+
+  59% {
+    content: "ᛝ";
+  }
+
+ 61% {
+    content: "ᛞ";
+  }
+
+  63% {
+    content: "ᛟ";
+  }
+
+  65% {
+    content: "ᛠ";
+  }
+
+  67% {
+    content: "ᛡ";
+  }
+
+ 69% {
+    content: "ᛢ";
+  }
+
+  71% {
+    content: "ᛣ";
+  }
+
+  72% {
+    content: "ᛤ";
+  }
+
+  75% {
+    content: "ᛥ";
+  }
+
+ 77% {
+    content: "ᛦ";
+  }
+
+ 79% {
+    content: "ᛩ";
+  }
+
+  81% {
+    content: "ᛪ";
+  }
+
+  83% {
+    content: "ᛮ";
+  }
+
+ 83% {
+    content: "ᛯ";
+  }
+
+  85% {
+    content: "ᛰ";
+  }
+
+  87% {
+    content: "1";
+  }
+
+  89% {
+    content: "8";
+  }
+
+  90% {
+    content: "2";
+  }
+
+  92% {
+    content: "3";
+  }
+
+  95% {
+    content: "4";
+  }
+
+ 97% {
+    content: "ß";
+  }
+
+  98% {
+    content: "5";
+  }
+
+ 99% {
+    content: "6";
+  }
+
+  100% {
+    content: "7";
+  }
+}
+
+/*section#3[end]*/
+
+.coding4::after{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 55%;
+  content: "K";
+  color: #fff;
+  font-family: 'Nabla', cursive;
+  font-size: 100px;
+  animation: mymoVe 3.2s linear;
+  filter: drop-shadow(0 0 5px #B1BB28) drop-shadow(0 0 15px #B1BB28)
+  drop-shadow(0 0 35px #B1BB28) hue-rotate(60deg);
+}
+
+/*coding4 {section}*/
+
+@keyframes mymoVe {
+  0% {
+    content: "ᚕ";
+  }
+
+  1% {
+    content: "ᚖ"
+  }
+
+  2% {
+    content: "ᚠ";
+  }
+
+  3% {
+    content: "ᚡ";
+  }
+
+  4% {
+    content: "ᚢ";
+  }
+
+  5% {
+    content: "ᚣ";
+  }
+
+  6% {
+    content: "ᚤ";
+  }
+
+  7% {
+    content: "ᚥ";
+  }
+
+  8% {
+    content: "ᚦ";
+  }
+
+  9% {
+    content: "ᚨ";
+  }
+
+  10% {
+    content: "ᚩ";
+  }
+
+  11% {
+    content: "ᚪ";
+  }
+
+  12% {
+    content: "ᚫ";
+  }
+
+  13% {
+    content: "ᚬ";
+  }
+
+  14% {
+    content: "ᚭ";
+  }
+
+  15% {
+    content: "ᚮ";
+  }
+
+  16% {
+    content: "ᚯ";
+  }
+
+  17% {
+    content: "ᚰ";
+  }
+
+  18% {
+    content: "ᚱ";
+  }
+
+  19% {
+    content:"ᚲ";
+  }
+
+  20% {
+    content: "ᚳ";
+  }
+
+  21% {
+    content: "ᚴ";
+  }
+
+  22% {
+    content: "ᚵ";
+  }
+
+  23% {
+    content: "ᚶ";
+  }
+
+  24% {
+    content: "ᚷ";
+  }
+
+  25% {
+    content: "ᚸ";
+  }
+
+  26% {
+    content: "ᚹ";
+  }
+
+  27% {
+    content: "ᚺ";
+  }
+
+  28% {
+    content: "ᚻ";
+  }
+
+  29% {
+    content: "ᚼ";
+  }
+
+ 30% {
+    content: "ᚽ";
+  }
+
+  31% {
+    content: "ᚾ";
+  }
+
+  32% {
+    content: "ᚿ";
+  }
+
+  33% {
+    content: "ᛃ";
+  }
+
+  34% {
+    content: "ᛄ";
+  }
+
+ 35% {
+    content: "ᛅ";
+  }
+
+  36% {
+    content: "ᛆ";
+  }
+
+  37% {
+    content: "ᛇ";
+  }
+
+  38% {
+    content: "ᛈ";
+  }
+
+  39% {
+    content: "ᛉ";
+  }
+
+  40% {
+    content: "ᛊ";
+  }
+
+  41% {
+    content: "ᛋ";
+  }
+
+  42% {
+    content: "ᛏ";
+  }
+
+  44% {
+    content: "ᛑ";
+  }
+
+ 45% {
+    content: "ᛒ";
+  }
+
+  47% {
+    content: "ᛓ";
+  }
+
+  49% {
+    content: "ᛔ";
+  }
+
+  50% {
+    content: "ᛕ";
+  }
+
+  51% {
+    content: "ᛖ";
+  }
+
+  52% {
+    content: "ᛗ";
+  }
+
+  53% {
+    content: "ᛘ";
+  }
+
+  55% {
+    content: "ᛚ";
+  }
+
+ 57% {
+    content: "ᛛ";
+  }
+
+  58% {
+    content: "ᛜ";
+  }
+
+  59% {
+    content: "ᛝ";
+  }
+
+ 61% {
+    content: "ᛞ";
+  }
+
+  63% {
+    content: "ᛟ";
+  }
+
+  65% {
+    content: "ᛠ";
+  }
+
+  67% {
+    content: "ᛡ";
+  }
+
+ 69% {
+    content: "ᛢ";
+  }
+
+  71% {
+    content: "ᛣ";
+  }
+
+  72% {
+    content: "ᛤ";
+  }
+
+  75% {
+    content: "ᛥ";
+  }
+
+ 77% {
+    content: "ᛦ";
+  }
+
+ 79% {
+    content: "ᛩ";
+  }
+
+  81% {
+    content: "ᛪ";
+  }
+
+  83% {
+    content: "ᛮ";
+  }
+
+ 83% {
+    content: "ᛯ";
+  }
+
+  85% {
+    content: "ᛰ";
+  }
+
+  87% {
+    content: "1";
+  }
+
+  89% {
+    content: "8";
+  }
+
+  90% {
+    content: "2";
+  }
+
+  92% {
+    content: "3";
+  }
+
+  95% {
+    content: "4";
+  }
+
+ 97% {
+    content: "ß";
+  }
+
+  98% {
+    content: "5";
+  }
+
+ 99% {
+    content: "6";
+  }
+
+  100% {
+    content: "7";
+  }
+}
+
+/*section#4[end]*/
+
+.coding5::after {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 65%;
+  content: "E";
+  color: #fff;
+  font-family: 'Nabla', cursive;
+  font-size: 100px;
+  animation: mymovE 2.9s linear;
+  filter: drop-shadow(0 0 5px #B1BB28) drop-shadow(0 0 15px #B1BB28)
+  drop-shadow(0 0 35px #B1BB28) hue-rotate(60deg);
+}
+
+/*coding5 {section}*/
+
+@keyframes mymovE {
+  0% {
+    content: "ᚕ";
+  }
+
+  1% {
+    content: "ᚖ"
+  }
+
+  2% {
+    content: "ᚠ";
+  }
+
+  3% {
+    content: "ᚡ";
+  }
+
+  4% {
+    content: "ᚢ";
+  }
+
+  5% {
+    content: "ᚣ";
+  }
+
+  6% {
+    content: "ᚤ";
+  }
+
+  7% {
+    content: "ᚥ";
+  }
+
+  8% {
+    content: "ᚦ";
+  }
+
+  9% {
+    content: "ᚨ";
+  }
+
+  10% {
+    content: "ᚩ";
+  }
+
+  11% {
+    content: "ᚪ";
+  }
+
+  12% {
+    content: "ᚫ";
+  }
+
+  13% {
+    content: "ᚬ";
+  }
+
+  14% {
+    content: "ᚭ";
+  }
+
+  15% {
+    content: "ᚮ";
+  }
+
+  16% {
+    content: "ᚯ";
+  }
+
+  17% {
+    content: "ᚰ";
+  }
+
+  18% {
+    content: "ᚱ";
+  }
+
+  19% {
+    content:"ᚲ";
+  }
+
+  20% {
+    content: "ᚳ";
+  }
+
+  21% {
+    content: "ᚴ";
+  }
+
+  22% {
+    content: "ᚵ";
+  }
+
+  23% {
+    content: "ᚶ";
+  }
+
+  24% {
+    content: "ᚷ";
+  }
+
+  25% {
+    content: "ᚸ";
+  }
+
+  26% {
+    content: "ᚹ";
+  }
+
+  27% {
+    content: "ᚺ";
+  }
+
+  28% {
+    content: "ᚻ";
+  }
+
+  29% {
+    content: "ᚼ";
+  }
+
+ 30% {
+    content: "ᚽ";
+  }
+
+  31% {
+    content: "ᚾ";
+  }
+
+  32% {
+    content: "ᚿ";
+  }
+
+  33% {
+    content: "ᛃ";
+  }
+
+  34% {
+    content: "ᛄ";
+  }
+
+ 35% {
+    content: "ᛅ";
+  }
+
+  36% {
+    content: "ᛆ";
+  }
+
+  37% {
+    content: "ᛇ";
+  }
+
+  38% {
+    content: "ᛈ";
+  }
+
+  39% {
+    content: "ᛉ";
+  }
+
+  40% {
+    content: "ᛊ";
+  }
+
+  41% {
+    content: "ᛋ";
+  }
+
+  42% {
+    content: "ᛏ";
+  }
+
+  44% {
+    content: "ᛑ";
+  }
+
+ 45% {
+    content: "ᛒ";
+  }
+
+  47% {
+    content: "ᛓ";
+  }
+
+  49% {
+    content: "ᛔ";
+  }
+
+  50% {
+    content: "ᛕ";
+  }
+
+  51% {
+    content: "ᛖ";
+  }
+
+  52% {
+    content: "ᛗ";
+  }
+
+  53% {
+    content: "ᛘ";
+  }
+
+  55% {
+    content: "ᛚ";
+  }
+
+ 57% {
+    content: "ᛛ";
+  }
+
+  58% {
+    content: "ᛜ";
+  }
+
+  59% {
+    content: "ᛝ";
+  }
+
+ 61% {
+    content: "ᛞ";
+  }
+
+  63% {
+    content: "ᛟ";
+  }
+
+  65% {
+    content: "ᛠ";
+  }
+
+  67% {
+    content: "ᛡ";
+  }
+
+ 69% {
+    content: "ᛢ";
+  }
+
+  71% {
+    content: "ᛣ";
+  }
+
+  72% {
+    content: "ᛤ";
+  }
+
+  75% {
+    content: "ᛥ";
+  }
+
+ 77% {
+    content: "ᛦ";
+  }
+
+ 79% {
+    content: "ᛩ";
+  }
+
+  81% {
+    content: "ᛪ";
+  }
+
+  83% {
+    content: "ᛮ";
+  }
+
+ 83% {
+    content: "ᛯ";
+  }
+
+  85% {
+    content: "ᛰ";
+  }
+
+  87% {
+    content: "1";
+  }
+
+  89% {
+    content: "8";
+  }
+
+  90% {
+    content: "2";
+  }
+
+  92% {
+    content: "3";
+  }
+
+  95% {
+    content: "4";
+  }
+
+ 97% {
+    content: "ß";
+  }
+
+  98% {
+    content: "5";
+  }
+
+ 99% {
+    content: "6";
+  }
+
+  100% {
+    content: "7";
+  }
+}
+
+/*section#5[end]*/
+
+.coding6::after {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 75%;
+  content: "R";
+  color: #fff;
+  font-family: 'Nabla', cursive;
+  font-size: 100px;
+  animation: mymovEE 3.4s linear;
+  filter: drop-shadow(0 0 5px #B1BB28) drop-shadow(0 0 15px #B1BB28)
+  drop-shadow(0 0 35px #B1BB28) hue-rotate(60deg);
+}
+
+@keyframes mymovEE {
+  0% {
+    content: "ᚕ";
+    font-family: 'Nabla', cursive;
+  }
+
+  1% {
+    content: "ᚖ"
+    font-family: 'Nabla', cursive;
+  }
+
+  2% {
+    content: "ᚠ";
+    font-family: 'Nabla', cursive;
+  }
+
+  3% {
+    content: "ᚡ";
+    font-family: 'Nabla', cursive;
+  }
+
+  4% {
+    content: "ᚢ";
+  }
+
+  5% {
+    content: "ᚣ";
+  }
+
+  6% {
+    content: "ᚤ";
+  }
+
+  7% {
+    content: "ᚥ";
+  }
+
+  8% {
+    content: "ᚦ";
+  }
+
+  9% {
+    content: "ᚨ";
+  }
+
+  10% {
+    content: "ᚩ";
+  }
+
+  11% {
+    content: "ᚪ";
+  }
+
+  12% {
+    content: "ᚫ";
+  }
+
+  13% {
+    content: "ᚬ";
+  }
+
+  14% {
+    content: "ᚭ";
+  }
+
+  15% {
+    content: "ᚮ";
+  }
+
+  16% {
+    content: "ᚯ";
+  }
+
+  17% {
+    content: "ᚰ";
+  }
+
+  18% {
+    content: "ᚱ";
+  }
+
+  19% {
+    content:"ᚲ";
+  }
+
+  20% {
+    content: "ᚳ";
+  }
+
+  21% {
+    content: "ᚴ";
+  }
+
+  22% {
+    content: "ᚵ";
+  }
+
+  23% {
+    content: "ᚶ";
+  }
+
+  24% {
+    content: "ᚷ";
+  }
+
+  25% {
+    content: "ᚸ";
+  }
+
+  26% {
+    content: "ᚹ";
+  }
+
+  27% {
+    content: "ᚺ";
+  }
+
+  28% {
+    content: "ᚻ";
+  }
+
+  29% {
+    content: "ᚼ";
+  }
+
+ 30% {
+    content: "ᚽ";
+  }
+
+  31% {
+    content: "ᚾ";
+  }
+
+  32% {
+    content: "ᚿ";
+  }
+
+  33% {
+    content: "ᛃ";
+  }
+
+  34% {
+    content: "ᛄ";
+  }
+
+ 35% {
+    content: "ᛅ";
+  }
+
+  36% {
+    content: "ᛆ";
+  }
+
+  37% {
+    content: "ᛇ";
+  }
+
+  38% {
+    content: "ᛈ";
+  }
+
+  39% {
+    content: "ᛉ";
+  }
+
+  40% {
+    content: "ᛊ";
+  }
+
+  41% {
+    content: "ᛋ";
+  }
+
+  42% {
+    content: "ᛏ";
+  }
+
+  44% {
+    content: "ᛑ";
+  }
+
+ 45% {
+    content: "ᛒ";
+  }
+
+  47% {
+    content: "ᛓ";
+  }
+
+  49% {
+    content: "ᛔ";
+  }
+
+  50% {
+    content: "ᛕ";
+  }
+
+  51% {
+    content: "ᛖ";
+  }
+
+  52% {
+    content: "ᛗ";
+  }
+
+  53% {
+    content: "ᛘ";
+  }
+
+  55% {
+    content: "ᛚ";
+  }
+
+ 57% {
+    content: "ᛛ";
+  }
+
+  58% {
+    content: "ᛜ";
+  }
+
+  59% {
+    content: "ᛝ";
+  }
+
+ 61% {
+    content: "ᛞ";
+  }
+
+  63% {
+    content: "ᛟ";
+  }
+
+  65% {
+    content: "ᛠ";
+  }
+
+  67% {
+    content: "ᛡ";
+  }
+
+ 69% {
+    content: "ᛢ";
+  }
+
+  71% {
+    content: "ᛣ";
+  }
+
+  72% {
+    content: "ᛤ";
+  }
+
+  75% {
+    content: "ᛥ";
+  }
+
+ 77% {
+    content: "ᛦ";
+  }
+
+ 79% {
+    content: "ᛩ";
+  }
+
+  81% {
+    content: "ᛪ";
+  }
+
+  83% {
+    content: "ᛮ";
+  }
+
+ 83% {
+    content: "ᛯ";
+  }
+
+  85% {
+    content: "ᛰ";
+  }
+
+  87% {
+    content: "1";
+  }
+
+  89% {
+    content: "8";
+  }
+
+  90% {
+    content: "2";
+  }
+
+  92% {
+    content: "3";
+  }
+
+  95% {
+    content: "4";
+  }
+
+ 97% {
+    content: "ß";
+  }
+
+  98% {
+    content: "5";
+  }
+
+ 99% {
+    content: "6";
+  }
+
+  100% {
+    content: "7";
+  }
+}
+
+@media(max-width: 867px) {
+
+  .coding1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 15%;
+  }
+
+  .coding2 {
+    font-family: 'Nabla', cursive;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 30%;
+  }
+
+  .coding3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 45%;
+  }
+
+  .coding4 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 60%;
+  }
+
+  .coding5 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 75%;
+  }
+
+  .coding6 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 90%;
+  }
+}
